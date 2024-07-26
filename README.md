@@ -1,10 +1,11 @@
 <!-- TOC start  -->
 
 - [Kotlin - Another Baldi's Basics Classic Decompile](#kotlin-another-baldis-basics-classic-decompile)
-   * [Why Kotlin?](#why-kotlin)
    * [Progress Report](#progress-report)
+      + [News](#news)
       + [What now?](#what-now)
       + [To-Do list](#to-do-list)
+   * [Why Kotlin?](#why-kotlin)
    * [How do I use Kotlin?](#how-do-i-use-kotlin)
       + [1. Fork this repo](#1-fork-this-repo)
       + [2. Download the source code at the current commit](#2-download-the-source-code-at-the-current-commit)
@@ -15,17 +16,16 @@
 # Kotlin - Another Baldi's Basics Classic Decompile
 [Kotlin](https://gamebanana.com/wips/86465)<sup>1</sup> is a new Baldi's Basics decompile and a framework designed to make modding easier. It is currently a work-in-progress project.
 
-<!-- TOC --><a name="why-kotlin"></a>
-## Why Kotlin?
-Kotlin features a lot of quality-of-life changes and new features like:
-- Optimization
-- Text translation
-- Subtitles
-- Improved item system
-- [Documentation](https://docs.google.com/document/d/1MKEgnFOoAUbwTa6okis_CD0ZwFglf9zcTP7tvofs3Z0/edit#heading=h.dn4zq8vy014w) 
-> Please note that documentation may look horrible by design
+<!-- TOC --><a name="news"></a>
+## News
+### 26/07/2024
+> [!WARNING]
+> Please do not download or update Kotlin now, as there are breaking changes which affect everyone's version of the decompile. The school is being rebuilt from scratch and any scripts you have applied or any content might get erased if you update your version of the decompile, as of 26th July, 2024.
 
-Kotlin was also made because BASIC, another decompile of Baldi's Basics lacked documentation and often, the code was unstable due to bugs.
+We started manually building the map from scratch so we would be able to add tile lightings. Howover, this update is a breaking change. Please read the warning above for more info.
+
+### 23/07/2024
+We have just added Tile Lighting. However, for now it is not set up for public use, but it is functional and we will be rolling out an update on in soon.
 
 <!-- TOC --><a name="progress-report"></a>
 ## Progress Report
@@ -41,6 +41,19 @@ You could use the current state of the decompile for your mods but keep in mind 
 - [x] Map Building tool (currently in work)
 - [ ] BB+ UI 
 - [ ] BB+ Event System (currently in work)
+
+<!-- TOC --><a name="why-kotlin"></a>
+## Why Kotlin?
+Kotlin features a lot of quality-of-life changes and new features like:
+- Optimization
+- Text translation
+- Subtitles
+- Improved item system
+- [Documentation](https://docs.google.com/document/d/1MKEgnFOoAUbwTa6okis_CD0ZwFglf9zcTP7tvofs3Z0/edit#heading=h.dn4zq8vy014w) 
+> Please note that documentation may look horrible by design
+
+Kotlin was also made because BASIC, another decompile of Baldi's Basics lacked documentation and often, the code was unstable due to bugs.
+
 
 <!-- TOC --><a name="how-do-i-use-kotlin"></a>
 ## How do I use Kotlin?
